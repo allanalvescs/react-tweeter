@@ -1,0 +1,27 @@
+.mainMenu {
+    flex-basis: 70%;
+}
+.mainMenu ul {
+}
+.mainMenu ul li {
+  display: flex;
+  align-items: center;
+  margin: 15px 0px;
+  height: 70px;
+}
+
+.mainMenu ul li:hover{
+    cursor: pointer;
+}
+
+.mainMenu ul li figure {
+    width: 40px;
+}
+.mainMenu ul li figure img {
+    width: 100%;
+}
+.mainMenu ul li a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
